@@ -1,0 +1,12 @@
+timescaledb:
+  username: postgres
+  password: password
+  host: localhost
+  post: 5432
+  dbname: timescaledb
+
+  # https://docs.timescale.com/quick-start/latest/python/
+  # connection: postgres://postgres:password@localhost:5432/postgres # ?sslmode=require
+  connection: postgresql://postgres:password@localhost:5432/timescaledb # ?sslmode=require
+
+
